@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	
+	<description>This is the bean defenitions and imports for the Spring framework</description>
+	
+	<bean id="ApplicationContextXMLPatchBean" class="com.idega.spring.patch.ApplicationContextXMLPatchBean"/>
+	
+</beans>
