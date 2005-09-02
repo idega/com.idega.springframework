@@ -9,10 +9,6 @@
   <organization />
   <inceptionYear>2004</inceptionYear>
   <shortDescription>Spring framework</shortDescription>
-    <repository>
-        <connection>scm:cvs:ext:${cvs.username}@einstein.idega.is:/idega/cvs:${pom.groupId}/${pom.artifactId}/</connection>
-        <developerConnection>scm:cvs:ext:${cvs.username}@einstein.idega.is:/idega/cvs:${pom.groupId}/${pom.artifactId}/</developerConnection>
-    </repository>
   <issueTrackingUrl>http://issues.idega.is</issueTrackingUrl>
   <developers>
     <developer>
