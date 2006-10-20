@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <classpath>
-  <classpathentry excluding="" kind="src" path="src/java">
-  </classpathentry>
-  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/spring/jars/spring-1.1.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/commons-logging/jars/commons-logging-1.0.4.jar">
-  </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/servletapi/jars/servletapi-2.4.jar">
-  </classpathentry>
-  <classpathentry kind="output" path="target/classes">
-  </classpathentry>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
