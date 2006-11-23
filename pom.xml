@@ -63,5 +63,20 @@
       <url>http://java.sun.com/products/servlet/docs.html</url>
     </dependency-->     
   </dependencies>
+  
+  <build>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/java</directory>
+        <includes>
+          <include>**/*.xml</include>
+        </includes>
+      </resource>
+	<resource>
+        <directory>${basedir}/WEB-INF</directory>
+        <targetPath>WEB-INF</targetPath>
+      </resource>
+	 </resources>
+	</build>
 </project>
 
