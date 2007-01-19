@@ -6,6 +6,7 @@
   	<artifactId>com.idega.block.base</artifactId>
   	<version>3.5.0</version>
   </parent>
+  <name>idegaWeb Spring</name>
   <packaging>jar</packaging>
   <groupId>com.idega.block.platform</groupId>
   <artifactId>com.idega.springframework</artifactId>
