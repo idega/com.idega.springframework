@@ -77,6 +77,10 @@
         <directory>${basedir}/WEB-INF</directory>
         <targetPath>WEB-INF</targetPath>
       </resource>
+      <resource>
+        <directory>${basedir}/properties</directory>
+        <targetPath>properties</targetPath>
+     </resource>
 	 </resources>
 	</build>
 </project>
