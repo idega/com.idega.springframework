@@ -8,12 +8,14 @@
 
 	<context-param> 
 		<param-name>contextConfigLocation</param-name> 
-		<param-value>classpath:com/idega/springframework/applicationContext.xml</param-value> 
+		<param-value>classpath:com/idega/springframework/applicationContext.xml classpath*:/WEB-INF/applicationContext.xml</param-value> 
 	</context-param> 
 
-	<listener> 
+	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-
-
+	<listener>
+		<!-- listener to add beans web scoping support -->
+	    <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+  	</listener>
 </web-app>

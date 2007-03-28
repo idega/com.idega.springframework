@@ -7,7 +7,7 @@
 	
 	<bean id="ApplicationContextXMLPatchBean" class="com.idega.spring.patch.ApplicationContextXMLPatchBean"/>
 	
-	<import resource="classpath:org/codehaus/xfire/spring/xfire.xml" />
+<!--<import resource="classpath:org/codehaus/xfire/spring/xfire.xml" />-->
 	<import resource="classpath:com/idega/xfire/demo/jsr181/xfire.xml" />
 	
 </beans>
