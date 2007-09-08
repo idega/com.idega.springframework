@@ -57,7 +57,7 @@
      <!--dependency>
         <groupId>commons-logging</groupId>
         <artifactId>commons-logging</artifactId>
-        <version>1.0.4</version>
+        <version>${commons-logging-commons-logging-version}</version>
         <type>jar</type>
         <url>http://jakarta.apache.org/commons/logging/</url>
     </dependency>  
