@@ -8,5 +8,8 @@
 	<application>
 		<!-- this needs to be read first by jsf -->
 		<variable-resolver>org.springframework.web.jsf.DelegatingVariableResolver</variable-resolver>
+		<!-- for 1.2 jsf 
+		<variable-resolver>org.springframework.web.jsf.el.SpringBeanFacesELResolver</variable-resolver>
+		-->
     </application>
 </faces-config>
