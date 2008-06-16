@@ -18,4 +18,11 @@
 		<!-- listener to add beans web scoping support -->
 	    <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
   	</listener>
+  	
+  	<listener>
+		<!-- listener clean up memory leaks from introspection  -->
+	    <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+  	</listener>
+  	
+  	
 </web-app>
