@@ -36,11 +36,22 @@
       <email>gummi@idega.is</email>
       <organization>idega software</organization>
     </developer>
+    <developer>
+      <name>Vytautas Čivilis</name>
+      <id>civilis</id>
+      <email>civilis@idega.com</email>
+      <organization>Idega Software</organization>
+      <roles />
+    </developer>
   </developers>
   <dependencies>
-      <dependency>
+     <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring</artifactId>
+     </dependency>
+     <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
      </dependency>
      <dependency>
             <groupId>aspectj</groupId>
