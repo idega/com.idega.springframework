@@ -4,7 +4,7 @@
     <key>
       <name>iw_bundle_identifier</name>
       <type>java.lang.String</type>
-      <value>org.springframework</value>
+      <value>com.idega.springframework</value>
     </key>
   </map>
 </pxml>
