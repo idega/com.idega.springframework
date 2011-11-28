@@ -14,17 +14,6 @@
   <organization />
   <inceptionYear>2004</inceptionYear>
   <description>Spring framework Integration</description>
-  <scm>
-    
-    <connection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.block.platform/com.idega.springframework/</connection>
-    <developerConnection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.block.platform/com.idega.springframework/</developerConnection> 
-     
-     <!--
-    <connection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.block.platform/com.idega.springframework/</connection>
-    <developerConnection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.block.platform/com.idega.springframework/</developerConnection>
-    -->
-    <tag>com_idega_block_platform-4_1_2</tag>
-  </scm>
 
   <developers>
     <developer>
@@ -78,25 +67,5 @@
       <version>2.1</version>
     </dependency>
   </dependencies>
-  
-  <!--  
-  <build>
-    <resources>
-      <resource>
-        <directory>${basedir}/src/java</directory>
-        <includes>
-          <include>**/*.xml</include>
-        </includes>
-      </resource>
-	<resource>
-        <directory>${basedir}/WEB-INF</directory>
-        <targetPath>WEB-INF</targetPath>
-      </resource>
-      <resource>
-        <directory>${basedir}/properties</directory>
-        <targetPath>properties</targetPath>
-     </resource>
-	 </resources>
-	</build>
-	-->
+
 </project>
