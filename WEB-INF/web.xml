@@ -9,6 +9,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
 		<param-value>classpath:com/idega/springframework/applicationContext.xml classpath*:/WEB-INF/applicationContext.xml</param-value> 
 	</context-param> 
 
+	<context-param>
+		<param-name>contextClass</param-name>
+		<param-value>com.idega.springframework.CachingWebApplicationContext</param-value>
+    </context-param>
+    
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
