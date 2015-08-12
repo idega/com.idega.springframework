@@ -1,14 +1,11 @@
 <?xml version="1.0"?>
 
 <!DOCTYPE faces-config PUBLIC
-  "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.0//EN"
-  "http://java.sun.com/dtd/web-facesconfig_1_0.dtd">
+  "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.2//EN"
+  "http://java.sun.com/dtd/web-facesconfig_1_2.dtd">
 
 <faces-config>
 	<application>
-		<!-- this needs to be read first by jsf -->
-		<!-- <variable-resolver>org.springframework.web.jsf.DelegatingVariableResolver</variable-resolver> -->
-		<!-- for 1.2 jsf -->
-		<variable-resolver>org.springframework.web.jsf.el.SpringBeanFacesELResolver</variable-resolver>
+		<el-resolver>org.springframework.web.jsf.el.SpringBeanFacesELResolver</el-resolver>
     </application>
 </faces-config>
