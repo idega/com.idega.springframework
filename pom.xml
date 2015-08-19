@@ -99,10 +99,9 @@
         <version>1.8.4</version>
     </dependency>
     <dependency>
-		<groupId>opensymphony</groupId>
-		<artifactId>quartz-all</artifactId>
-		<version>1.6.0</version>
-		<type>jar</type>
+		<groupId>org.quartz-scheduler</groupId>
+		<artifactId>quartz</artifactId>
+		<version>2.1.7</version>
 	</dependency>
 	<dependency>
 		<groupId>cglib</groupId>
