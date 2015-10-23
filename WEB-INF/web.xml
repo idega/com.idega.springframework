@@ -1,32 +1,38 @@
-<web-app version="3.0"
-  xmlns="http://java.sun.com/xml/ns/javaee"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="
+<web-app
+	version="3.0"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
     http://java.sun.com/xml/ns/javaee
     http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
-	<context-param> 
-		<param-name>contextConfigLocation</param-name> 
-		<param-value>classpath:com/idega/springframework/applicationContext.xml classpath*:/WEB-INF/applicationContext.xml</param-value> 
-	</context-param> 
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			classpath:com/idega/springframework/applicationContext.xml 
+			classpath*:/WEB-INF/applicationContext.xml
+			classpath*:/WEB-INF/OAuth2-servlet.xml
+			classpath*:/WEB-INF/spring-security.xml
+		</param-value>
+	</context-param>
 
 	<context-param>
 		<param-name>contextClass</param-name>
 		<param-value>com.idega.springframework.CachingWebApplicationContext</param-value>
-    </context-param>
-    
+	</context-param>
+
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 	<listener>
 		<!-- listener to add beans web scoping support -->
-	    <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
-  	</listener>
-  	
-  	<listener>
-		<!-- listener clean up memory leaks from introspection  -->
-	    <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
-  	</listener>
-  	
-  	
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+
+	<listener>
+		<!-- listener clean up memory leaks from introspection -->
+		<listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+	</listener>
+
+
 </web-app>
